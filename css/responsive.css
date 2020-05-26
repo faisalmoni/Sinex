@@ -1,0 +1,1246 @@
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /*    BANNER CSS*/
+    .banner-part .banner-text h2 {
+        font-size: 75px;
+    }
+
+    .banner-part .slide-btn .left-angle {
+        left: 35px;
+    }
+
+    .banner-part .slide-btn .right-angle {
+        right: 35px;
+    }
+
+    /*==================INDEX2 CSS START==============*/
+    /*BANNER CSS*/
+    .banner-text.BanT2 {
+        margin-left: 95px;
+    }
+
+    .banner-text #creat {
+        font-size: 70px;
+    }
+
+    .text-btn.Tb2 {
+        margin-left: 95px;
+    }
+
+    /*==================INDEX2 CSS END==============*/
+
+    /*AMAZING CSS*/
+    .amazing-part .amaz-gellery {
+        margin: 0 0px;
+    }
+
+    .amazing-part .amazing-img .amazing-overlay {
+        padding: 20px;
+    }
+
+    .amazing-part .amazing-overlay .amgzing-text {
+        position: absolute;
+        bottom: 10px;
+    }
+
+    .amgzing-text.bag-img #light {
+        font-size: 25px;
+    }
+
+    .col-lg-5.col-md-5.col-sm-8.mix.Digital.Branding.green-bag {
+        margin-bottom: 2px;
+    }
+
+
+    /* TEAM CSS*/
+    .stuff-part .single-stuff .stuff-img .stuff-overlay .stuff-icon {
+        padding: 15px 0;
+    }
+
+    .stuff-part .single-stuff .stuff-img .stuff-overlay p {
+        padding-top: 230px;
+    }
+
+
+    /*DESING CSS*/
+
+    .design-part .design-text {
+        padding-left: 80px;
+        padding-top: 110px;
+        padding-bottom: 110px;
+    }
+
+    /* BLOG CSS*/
+    .blog-part .blog-contant .blog-text #adds {
+        line-height: 16px;
+    }
+
+
+
+
+    /*==================FOTTER-PART CSS==============*/
+    /*    FOOTER-PART CSS*/
+    .footer-part .foot-center {
+        margin-left: -22px;
+    }
+
+    .footer-part .foot-center #but1 {
+        padding-bottom: 10px;
+    }
+
+    .footer-part .foot-center #but2 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .foot-right {
+        margin-left: -22px;
+    }
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /*COMMONE CSS*/
+    .scetion-head-text {
+        padding-bottom: 55px;
+    }
+
+    .scetion-head-text h3 {
+        font-size: 35px;
+        padding: 20px 0;
+    }
+
+    .scetion-head-text p {
+        padding: 0 100px;
+    }
+
+
+
+    /*    NAVBAR CSS*/
+    .navbar .navbar-brand {
+        padding-left: 40px;
+    }
+    .navbar .navbar-nav .nav-item .nav-link {
+        padding: 54px 10px;
+        font-size: 13px;
+    }
+    .navbar .toggle-bar {
+        padding-right: 40px;
+    }
+
+    /*    BANNER CSS*/
+    .banner-part .banner-slide-active .banner-overlay {
+        padding: 180px 0 100px 0;
+    }
+
+    .banner-part .banner-text span {
+        padding-bottom: 20px;
+    }
+
+    .banner-part .banner-text h2 {
+        font-size: 60px;
+    }
+
+    .banner-part .text-btn a {
+        padding: 15px 50px;
+    }
+
+    .banner-part .slide-btn button {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .banner-part:hover .slide-btn button {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    /*==================INDEX2 CSS START==============*/
+    /*BANNER CSS*/
+    .banner-text.BanT2 {
+        margin-left: 30px;
+    }
+
+    .banner-text #creat {
+        font-size: 60px;
+    }
+
+    .text-btn.Tb2 {
+        margin-left: 30px;
+    }
+
+    /*==================INDEX2 CSS END==============*/
+
+
+    /*SKILL CSS*/
+    .skill-part {
+        padding: 60px 0;
+    }
+
+    /*====================INDEX2 CSS START====================*/
+    /*SKILL CSS*/
+    .skill-partTow {
+        padding: 80px 0;
+    }
+
+    .skill-partTow .Awesome-content {
+        padding: 50px 23px;
+    }
+
+    /*AWESOME PORTPOLIO CSS*/
+    .awesome-prot-part {
+        padding-top: 80px;
+    }
+
+    .awesome-prot-part .Awe-prot-btn {
+        padding-bottom: 30px;
+    }
+
+    /*CLIENT CSS*/
+    .Client-part {
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+
+    .Client-part .single-client {
+        padding: 30px;
+        text-align: justify;
+    }
+
+    /*VIDEO CSS*/
+    .Video-part {
+        padding: 120px 0;
+    }
+
+    .Video-part .video-text h3 {
+        font-size: 40px;
+    }
+
+    .Video-part .video-text .video-play-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 22px;
+        line-height: 50px;
+        margin-top: 25px;
+        padding-left: 5px;
+    }
+
+    /*====================INDEX2 CSS END====================*/
+
+
+    /*AWESOME CSS*/
+    .awesome-part {
+        padding: 60px 0;
+    }
+
+    .awesome-part .services-cont {
+        padding: 30px 30px;
+    }
+
+    .awesome-part .services-cont h4 {
+        font-size: 17px;
+        padding-top: 20px;
+    }
+
+    .awesome-part .services-cont p {
+        padding-top: 20px;
+    }
+
+    /*AMAZING CSS*/
+    .amazing-part {
+        padding: 60px 0;
+    }
+
+    .amazing-part .amazing-title {
+        padding-bottom: 45px;
+    }
+
+    .amazing-part .amazing-title h4 {
+        font-size: 35px;
+        padding-top: 20px;
+    }
+
+    .amazing-part .amazing-list-text {
+        padding-top: 45px;
+    }
+
+    .amazing-part .amazing-list-text button {
+        margin-right: 20px;
+    }
+
+    .amazing-part .amaz-gellery {
+        margin: 0 15px;
+    }
+
+    .amgzing-text.bag-img #light {
+        font-size: 20px;
+    }
+
+    /*COUNTER CSS*/
+    .sinex-counter-part {
+        padding: 60px 0;
+    }
+
+    .sinex-counter-part .counter .count-num {
+        font-size: 35px;
+    }
+
+    .sinex-counter-part .counter .count-num::before {
+        left: 40%;
+    }
+
+    /* TEAM CSS*/
+    .stuff-part {
+        padding: 75px 0;
+    }
+
+    .stuff-part .single-stuff .stuff-img .stuff-overlay {
+        padding: 0 6px;
+    }
+
+    .stuff-part .single-stuff .stuff-img .stuff-overlay .stuff-icon {
+        padding: 15px 0;
+    }
+
+    .stuff-part .single-stuff .stuff-img .stuff-overlay p {
+        padding-top: 270px;
+    }
+
+    /* DESINGE CSS*/
+
+    .design-part .design-text {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 68px;
+        padding-bottom: 71px;
+    }
+
+    .design-part .design-text h4 {
+        font-size: 35px;
+        padding: 20px 0;
+    }
+
+    .design-part .design-text .design-btn a {
+        font-size: 16px;
+        padding: 15px 40px;
+        margin-top: 30px;
+    }
+
+    /* BLOG CSS*/
+    .blog-part {
+        padding: 60px 0;
+    }
+
+    .blog-part .blog-contant {
+        margin-bottom: 30px;
+    }
+
+    .blog-part .blog-contant .blog-text #adds {
+        line-height: 16px;
+    }
+
+
+
+    /*==================FOOTER-PART CSS==============*/
+    /*    FOOTER-PART CSS*/
+    .footer-part {
+        padding: 80px 0;
+    }
+
+    .footer-part .foot-left .foot-soci-icon {
+        padding-top: 20px;
+    }
+
+    .footer-part .foot-center {
+        margin-left: -16px;
+    }
+
+    .footer-part .foot-center #but1 {
+        padding-bottom: 10px;
+    }
+
+    .footer-part .foot-center #but2 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .foot-right {
+        margin-left: -30px;
+    }
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /*COMMONE CSS*/
+    .scetion-head-text {
+        padding-bottom: 40px;
+    }
+
+    .scetion-head-text h3 {
+        font-size: 30px;
+        padding: 15px 0;
+    }
+
+    .scetion-head-text p {
+        padding: 0 15px;
+    }
+
+
+    /*NAVBAR CSS*/
+    .navbar .navbar-brand {
+        padding-left: 32px;
+    }
+
+    .navbar .navbar-brand img {
+        padding: 40px 0;
+    }
+
+    .navbar #navbarSupportedContent {
+        background: rgba(106, 126, 126, 0.9);
+        text-align: center;
+        border-top: 2px solid #f26957;
+        position: absolute;
+        top: 100%;
+        right: 30px;
+        left: 30px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        padding: 15px 23px;
+        font-size: 13px;
+    }
+
+    .navbar .navbar-toggler {
+        border: 0;
+        padding: 0;
+    }
+
+    .navbar .navbar-toggler i {
+        font-size: 24px;
+        color: #fff;
+        padding-right: 35px;
+        -webkit-transition: all .3s linear;
+        transition: all .3s linear;
+    }
+
+    .navbar .navbar-toggler i:hover {
+        color: #f26957;
+    }
+
+    .navbar .navbar-nav {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .navbar .toggle-bar {
+        display: none;
+    }
+
+    .navbar.navbar-expand-md.navbar-light.p-0.sticky .navbar-brand img {
+        padding: 0;
+    }
+
+    /*    BANNER CSS*/
+    .banner-part .banner-slide-active .banner-overlay {
+        padding: 180px 0 100px 0;
+    }
+
+    .banner-part .banner-text span {
+        padding-bottom: 18px;
+    }
+
+    .banner-part .banner-text h2 {
+        font-size: 45px;
+    }
+
+    .banner-part .text-btn a {
+        padding: 12px 40px;
+    }
+
+    .banner-part .slide-btn button {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .banner-part:hover .slide-btn button {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    /*==================INDEX2 CSS START==============*/
+    /*BANNER CSS*/
+    .banner-text.BanT2 {
+        margin-left: 0px;
+    }
+
+    .banner-text #creat {
+        font-size: 45px;
+    }
+
+    .text-btn.Tb2 {
+        margin-left: 0px;
+    }
+
+    /*==================INDEX2 CSS END==============*/
+
+
+    /*SKILL CSS*/
+
+    .skill-part {
+        padding: 45px 0;
+    }
+
+    .skill-part .slill-content h4 {
+        font-size: 16px;
+        padding: 30px 0 20px 0;
+    }
+
+    .skill-part .slill-content a {
+        padding-top: 20px;
+    }
+
+    .skill-part .slill-content .skill-btn i {
+        top: 24px;
+    }
+
+
+    /*====================INDEX2 CSS START====================*/
+    /*SKILL CSS*/
+    .skill-partTow {
+        padding: 80px 0;
+    }
+
+    .skill-partTow .Awesome-content {
+        padding: 35px 35px;
+    }
+
+    .skill-partTow .Awesome-content h4 {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .skill-partTow .Awesome-content p {
+        padding-bottom: 20px;
+    }
+
+    /*AWESOME PORTPOLIO CSS*/
+    .awesome-prot-part {
+        padding-top: 50px;
+    }
+
+    .awesome-prot-part .Awe-prot-btn {
+        padding-bottom: 30px;
+    }
+
+    /*CLIENT CSS*/
+    .Client-part {
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+
+    .Client-part .single-client {
+        padding: 30px;
+        text-align: justify;
+    }
+
+    .Client-part .single-client p {
+        padding-bottom: 20px;
+    }
+
+    .Client-part .single-client .client-details {
+        padding-top: 20px;
+    }
+
+    /*VIDEO CSS*/
+    .Video-part {
+        padding: 100px 0;
+    }
+
+    .Video-part .video-text h3 {
+        font-size: 35px;
+    }
+
+    .Video-part .video-text .video-play-btn {
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+        line-height: 45px;
+        margin-top: 15px;
+        padding-left: 5px;
+    }
+
+    /*====================INDEX2 CSS END====================*/
+
+
+
+    /*AWESOME CSS*/
+    .awesome-part {
+        padding: 60px 0;
+    }
+
+    .awesome-part .services-cont {
+        padding: 30px 30px;
+        text-align: center;
+    }
+
+    .awesome-part .services-cont h4 {
+        font-size: 16px;
+        padding-top: 20px;
+    }
+
+    .awesome-part .services-cont p {
+        padding-top: 20px;
+    }
+
+    /*AMAZING CSS*/
+    .amazing-part {
+        padding: 60px 0;
+    }
+
+    .amazing-part .amazing-title {
+        padding-bottom: 40px;
+    }
+
+    .amazing-part .amazing-title h4 {
+        font-size: 30px;
+        padding-top: 15px;
+    }
+
+    .amazing-part .amazing-list-text {
+        padding-top: 40px;
+    }
+
+    .amazing-part .amazing-list-text button {
+        margin-right: 6px;
+    }
+
+    .amazing-part .amaz-gellery {
+        margin: 0 15px;
+    }
+
+    .amazing-part .amazing-img .amazing-overlay #plus {
+        font-size: 20px;
+    }
+
+    .amazing-part .amazing-img .amazing-overlay h4 {
+        font-size: 18px;
+    }
+
+    .amazing-part .amazing-img .amazing-overlay span {
+        font-size: 14px;
+    }
+
+    .amgzing-text.bag-img #light {
+        font-size: 20px;
+    }
+
+    /*COUNTER CSS*/
+    .sinex-counter-part {
+        padding: 40px 0;
+    }
+
+    .sinex-counter-part .counter {
+        margin-bottom: 25px;
+    }
+
+    .sinex-counter-part .counter .count-num {
+        font-size: 35px;
+    }
+
+
+    /* TEAM CSS*/
+    .stuff-part {
+        padding: 75px 0;
+    }
+
+    .stuff-part .single-stuff .stuff-img .stuff-overlay {
+        padding: 0 15px;
+    }
+
+    .stuff-part .single-stuff .stuff-img .stuff-overlay p {
+        padding-top: 150px;
+    }
+
+    .stuff-part .single-stuff .stuff-img .stuff-overlay .stuff-icon {
+        padding: 10px 0;
+    }
+
+    .stuff-part .single-stuff h4 {
+        padding-top: 20px;
+        font-size: 20px;
+    }
+
+    /*    DESING CSS*/
+
+    .design-part .design-text {
+        padding-left: 20px;
+        padding-top: 30px;
+        padding-bottom: 45px;
+        padding-right: 20px;
+    }
+
+    .design-part .design-text h4 {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    .design-part .design-text .design-btn a {
+        font-size: 14px;
+        padding: 15px 35px;
+        margin-top: 20px;
+    }
+
+    /*LOGO CSS*/
+    .logo-part {
+        padding: 50px 0;
+    }
+
+    /* BLOG CSS*/
+    .blog-part {
+        padding: 60px 0;
+    }
+
+    .blog-part .blog-contant {
+        margin-bottom: 30px;
+    }
+
+    .blog-part .blog-contant .blog-text {
+        padding: 15px 20px;
+    }
+
+    .blog-part .blog-contant .blog-text h4 {
+        font-size: 18px;
+        padding-bottom: 18px;
+    }
+
+    .blog-part .blog-contant .blog-text #adds {
+        line-height: 16px;
+        padding-bottom: 14px;
+    }
+
+
+    /*==================FOOTER-PART CSS==============*/
+    /*    FOOTER-PART CSS*/
+    .footer-part {
+        padding: 45px 0;
+    }
+
+    .footer-part .foot-left p {
+        padding-top: 25px;
+    }
+
+    .footer-part .foot-left .foot-soci-icon {
+        padding-top: 20px;
+    }
+
+    .footer-part .foot-center {
+        margin-left: 0px;
+    }
+
+    .footer-part .foot-center {
+        margin-left: 0px;
+        margin: 25px 0;
+    }
+
+    .footer-part .foot-center h4 {
+        padding-bottom: 25px;
+    }
+
+    .footer-part .foot-center #but1 {
+        padding-bottom: 5px;
+    }
+
+    .footer-part .foot-center #but2 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .foot-right {
+        margin-left: 0px;
+    }
+
+    .footer-part .foot-right h4 {
+        padding-bottom: 25px;
+    }
+
+    .footer-part .foot-right form {
+        margin-top: 30px;
+    }
+
+    .footer-part .foot-right form button {
+        padding: 0;
+        padding-left: 0px;
+    }
+
+    .footer-btm {
+        padding: 15px 0;
+    }
+
+    .footer-btm .foot-menu ul {
+        margin-bottom: 0;
+        text-align: left;
+        margin-left: 35px;
+    }
+
+    .footer-btm .foot-menu ul li {
+        margin-right: 4px;
+    }
+
+}
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    /*COMMONE CSS*/
+    .scetion-head-text {
+        padding-bottom: 30px;
+    }
+
+    .scetion-head-text h3 {
+        font-size: 22px;
+        padding: 10px 0;
+    }
+
+    .scetion-head-text p {
+        padding: 0 0px;
+    }
+
+
+    /*    NAVBAR CSS*/
+    .navbar .navbar-brand {
+        padding-left: 17px;
+    }
+
+    .navbar .navbar-brand img {
+        padding: 30px 0;
+    }
+
+    .navbar #navbarSupportedContent {
+        background: rgba(106, 126, 126, 0.9);
+        text-align: center;
+        border-top: 2px solid #f26957;
+        position: absolute;
+        top: 100%;
+        right: 30px;
+        left: 30px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        padding: 14px 23px;
+        font-size: 13px;
+    }
+
+    .navbar .navbar-toggler {
+        border: 0;
+        padding: 0;
+    }
+
+    .navbar .navbar-toggler i {
+        font-size: 24px;
+        color: #fff;
+        padding-right: 18px;
+        -webkit-transition: all .3s linear;
+        transition: all .3s linear;
+    }
+
+    .navbar .navbar-toggler i:hover {
+        color: #f26957;
+    }
+
+    .navbar .navbar-nav {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .navbar .toggle-bar {
+        display: none;
+    }
+
+    .navbar.navbar-expand-md.navbar-light.p-0.sticky .navbar-brand img {
+        padding: 0;
+    }
+
+    /*    BANNER CSS*/
+    .banner-part .banner-slide-active .banner-overlay {
+        padding: 160px 0 50px 0;
+    }
+
+    .banner-part .banner-text span {
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .banner-part .banner-text h2 {
+        font-size: 26px;
+    }
+
+    .banner-part .text-btn a {
+        padding: 10px 30px;
+        font-size: 13px;
+    }
+
+    .banner-part .slide-btn button {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .banner-part:hover .slide-btn button {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    /*==================INDEX2 CSS START==============*/
+    /*BANNER CSS*/
+    .banner-text.BanT2 {
+        margin-left: 0px;
+    }
+
+    .banner-text #creat {
+        font-size: 26px;
+    }
+
+    .text-btn.Tb2 {
+        margin-left: 0px;
+    }
+
+    /*==================INDEX2 CSS END==============*/
+
+
+
+    /*SKILL CSS*/
+    .skill-part {
+        padding: 30px 0;
+    }
+
+    .skill-part .slill-content h4 {
+        font-size: 16px;
+        padding: 20px 0 10px 0;
+    }
+
+    .skill-part .slill-content a {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .skill-part .slill-content .skill-btn i {
+        top: 13px;
+    }
+
+    /*====================INDEX2 CSS START====================*/
+    /*SKILL CSS*/
+    .skill-partTow {
+        padding: 45px 0;
+    }
+
+    .skill-partTow .Awesome-content {
+        padding: 35px 35px;
+    }
+
+    .skill-partTow .Awesome-content h4 {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .skill-partTow .Awesome-content p {
+        padding-bottom: 20px;
+    }
+
+    /*AWESOME PORTPOLIO CSS*/
+    .awesome-prot-part {
+        padding-top: 45px;
+    }
+
+    .awesome-prot-part .Awe-prot-btn {
+        padding-bottom: 20px;
+    }
+
+    .awesome-prot-part .Awe-prot-btn button {
+        margin-right: 10px;
+    }
+
+    /*CLIENT CSS*/
+    .Client-part {
+        padding-top: 45px;
+        padding-bottom: 50px;
+    }
+
+    .Client-part .single-client {
+        padding: 30px;
+        text-align: justify;
+    }
+
+    .Client-part .single-client p {
+        padding-bottom: 20px;
+    }
+
+    .Client-part .single-client .client-details {
+        padding-top: 20px;
+    }
+
+    /*VIDEO CSS*/
+    .Video-part {
+        padding: 80px 0;
+    }
+
+    .Video-part .video-text h3 {
+        font-size: 24px;
+    }
+
+    .Video-part .video-text .video-play-btn {
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+        line-height: 45px;
+        margin-top: 15px;
+        padding-left: 5px;
+    }
+
+    /*====================INDEX2 CSS END====================*/
+
+    /*AWESOME CSS*/
+    .awesome-part {
+        padding: 45px 0;
+    }
+
+    .awesome-part .services-cont {
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .awesome-part .services-cont h4 {
+        font-size: 16px;
+        padding-top: 20px;
+    }
+
+    .awesome-part .services-cont p {
+        padding-top: 20px;
+    }
+
+    /*AMAZING CSS*/
+    .amazing-part {
+        padding: 45px 0;
+    }
+
+    .amazing-part .amazing-title {
+        padding-bottom: 0px;
+    }
+
+    .amazing-part .amazing-title h4 {
+        font-size: 22px;
+        padding-top: 10px;
+    }
+
+    .amazing-part .amazing-list-text {
+        padding-top: 10px;
+        padding-bottom: 15px;
+        text-align: left;
+    }
+
+    .amazing-part .amazing-list-text button {
+        margin-right: 6px;
+    }
+
+    .amazing-part .amaz-gellery {
+        margin: 0 15px;
+    }
+
+    .amazing-part #amaz-img {
+        height: 100%;
+    }
+
+    .amazing-part .amazing-img .amazing-overlay h4 {
+        font-size: 16px;
+    }
+
+    .amazing-part .amazing-img .amazing-overlay span {
+        font-size: 14px;
+    }
+
+    .amazing-part .amazing-img .amazing-overlay #plus {
+        font-size: 20px;
+    }
+
+    .amazing-overlay #plus-icon {
+        font-size: 20px;
+    }
+
+    .amgzing-text.bag-img #brnad {
+        font-size: 16px;
+    }
+
+    .amgzing-text.bag-img #light {
+        font-size: 16px;
+    }
+
+    /*COUNTER CSS*/
+    .sinex-counter-part {
+        padding: 40px 0;
+    }
+
+    .sinex-counter-part .counter {
+        margin-bottom: 25px;
+    }
+
+    .sinex-counter-part .counter .count-num {
+        font-size: 35px;
+    }
+
+
+    /* TEAM CSS*/
+    .stuff-part {
+        padding: 75px 0;
+    }
+
+    .stuff-part .single-stuff .stuff-img .stuff-overlay {
+        padding: 0 15px;
+    }
+
+    .stuff-part .single-stuff .stuff-img .stuff-overlay p {
+        padding-top: 215px;
+    }
+
+    .stuff-part .single-stuff .stuff-img .stuff-overlay .stuff-icon {
+        padding-top: 10px;
+    }
+
+    .stuff-part .single-stuff h4 {
+        padding-top: 18px;
+        font-size: 18px;
+    }
+
+
+    /*    DESING CSS*/
+
+    .design-part .design-text {
+        padding-left: 20px;
+        padding-top: 30px;
+        padding-bottom: 45px;
+        padding-right: 20px;
+    }
+
+    .design-part .design-text h4 {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    .design-part .design-text .design-btn a {
+        font-size: 12px;
+        padding: 10px 25px;
+        margin-top: 15px;
+    }
+
+    /*LOGO CSS*/
+    .logo-part {
+        padding: 50px 0;
+    }
+
+    /* BLOG CSS*/
+    .blog-part .blog-contant {
+        margin-bottom: 30px;
+    }
+
+    .blog-part {
+        padding: 45px 0;
+    }
+
+    .blog-part .blog-contant .blog-text {
+        padding: 15px 20px;
+    }
+
+    .design-part .design-text span {
+        text-align: center;
+        display: block;
+    }
+
+    .blog-part .blog-contant .blog-text h4 {
+        font-size: 18px;
+        padding-bottom: 18px;
+    }
+
+    .blog-part .blog-contant .blog-text #adds {
+        line-height: 16px;
+        padding-bottom: 14px;
+    }
+
+    /*==================FOOTER-PART CSS==============*/
+    /*    FOOTER-PART CSS*/
+    .footer-part {
+        padding: 35px 0;
+    }
+
+    .footer-part .foot-left p {
+        padding-top: 20px;
+    }
+
+    .footer-part .foot-left .foot-soci-icon {
+        padding-top: 20px;
+    }
+
+    .footer-part .foot-left .foot-soci-icon a {
+        margin-right: 10px;
+    }
+
+    .footer-part .foot-center {
+        margin-left: 0px;
+        margin: 25px 0;
+    }
+
+    .footer-part .foot-center h4 {
+        padding-bottom: 20px;
+    }
+
+    .footer-part .foot-center #but1 {
+        padding-bottom: 5px;
+    }
+
+    .footer-part .foot-center #but2 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .footer-part .foot-right {
+        margin-left: 0px;
+    }
+
+    .footer-part .foot-right h4 {
+        padding-bottom: 20px;
+    }
+
+    .footer-part .foot-right form {
+        margin-top: 20px;
+    }
+
+    .footer-part .foot-right form input {
+        padding: 10px 15px;
+    }
+
+    .footer-part .foot-right form button {
+        padding: 0;
+        padding-left: 0px;
+    }
+
+    .footer-btm {
+        padding: 10px 0;
+    }
+
+    .footer-btm .copyRight span {
+        text-align: center;
+        display: block;
+    }
+
+    .footer-btm .foot-menu ul {
+        text-align: center;
+    }
+
+    .footer-btm .foot-menu ul li {
+        margin-right: 10px;
+    }
+
+}

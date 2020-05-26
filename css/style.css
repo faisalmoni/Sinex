@@ -1,0 +1,1277 @@
+/*+-----------------------------------------------------------+
+  |                                                           |
+  |    Template Name:  -SINAX  Html Template                  |
+  |    Author: themesitem                                     |
+  |    Author Email: themesitem.cit@gmail.com                 |
+  |    Version: 1.00                                          |
+  |                                                           |
+  +-----------------------------------------------------------+*/
+/* CSS Index 
+-----------------------------------
+1. Theme default css
+2. Index Page 
+        |----> MENU Css
+        |----> STICKY header css
+        |----> BANNER Css
+        |----> SKILL  Css
+        |----> AWESOME Css
+        |----> AMAZING-WORK Css
+        |----> COUNTER  Css
+        |----> TEAM Css
+        |----> DESIGNE Css
+        |----> LOGO Css
+        |----> FOOTER Css
+        |----> COPY RIGHT Css
+3. Index2 Page 
+        |----> MENU Css
+        |----> STICKY header css
+        |----> BANNER Css
+        |----> SKILL  Css
+        |----> AWESOME PORTPOLIO Css
+        |----> CLIENT Css
+        |----> VIDEO  Css
+        |----> FOOTER Css
+        |----> COPY RIGHT Css
+*/
+
+
+/*=====GOOGLE FONT LINK=====*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+/*=====COMMON CSS=====*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+    display: inline-block;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+button:focus {
+    outline: 0;
+}
+/*perloader css*/
+.preloader {
+	position: fixed;
+	z-index: 9999999;
+	width: 100%;
+	height: 100vh;
+	background: #fff;
+}
+.preloader-img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+}
+
+.bg-theme {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+.scetion-head-text {
+    text-align: center;
+    padding-bottom: 65px;
+}
+
+.scetion-head-text span {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto Condensed';
+    color: #a7a7a7;
+}
+
+.scetion-head-text h3 {
+    font-size: 40px;
+    line-height: 1;
+    font-weight: 700;
+    font-family: 'Roboto Condensed';
+    color: #222222;
+    padding: 30px 0;
+}
+
+.scetion-head-text p {
+    font-size: 14px;
+    padding: 0 180px;
+    font-weight: 400;
+    font-family: 'Roboto Condensed';
+    color: #8f8f8f;
+}
+
+/*=====COMMON CSS=====*/
+
+/*============================
+    1.MAIN MENU
+=============================*/
+.navbar {
+    background: transparent;
+    position: absolute;
+    width: 100%;
+    z-index: 99999;
+}
+
+.navbar .navbar-brand {
+    padding-left: 70px;
+}
+
+.navbar .navbar-brand img {
+    padding: 54px 0;
+}
+
+.navbar .navbar-nav {
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.navbar-nav.ml-auto.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    padding: 54px 25px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #f26957;
+}
+
+.navbar .navbar-nav .nav-item .active {
+    color: #f26957;
+}
+
+.navbar .toggle-bar {
+    padding-right: 70px;
+    padding-left: 46px;
+}
+
+.navbar .toggle-bar #bar {
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*============================
+    MAIN MENU INDEX2
+=============================*/
+/*
+.navbar.navbar-expand-md.navbar-light.p-0.index2 {
+    background: black;
+*/
+
+
+
+/*STICKY MENU*/
+.navbar.navbar-expand-md.navbar-light.p-0.sticky {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0, .7);
+    z-index: 99999;
+    animation: stickyAni 1.5s linear;
+    -webkit-animation: stickyAni 1.5s linear;
+    -moz-animation: stickyani 1.5s linear;
+    -ms-animation: stickyani 1.5s linear;
+    -o-animation: stickyani 1.5s linear;
+}
+
+@-webkit-keyframes stickyAni {
+    from {
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+}
+
+    to {
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+}
+
+}
+
+@keyframes stickyAni {
+    from {
+        transform: translateY(-100%);
+        -webkit-transform: translateY(-100%);
+        -moz-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+        -o-transform: translateY(-100%);
+}
+
+    to {
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+}
+
+}
+
+/*============================
+    2.BANNER CSS
+=============================*/
+
+.banner-part {
+    position: relative;
+}
+
+.banner-part .banner-slide-active .banner-overlay {
+    background: rgba(0, 0, 0, .7);
+    padding: 245px 0;
+}
+
+.banner-part .banner-text span {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    font-family: "Roboto Condensed";
+    padding-bottom: 40px;
+    display: block;
+}
+
+.banner-part .banner-text h2 {
+    font-size: 92px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Roboto Condensed";
+}
+
+.banner-part .text-btn a {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    font-family: "Roboto Condensed";
+    padding: 20px 55px;
+    background: transparent;
+    margin-top: 30px;
+    border: 1px solid #fff;
+}
+
+.banner-part .text-btn a:hover {
+    color: #fff;
+    background: #f26957;
+    border: 1px solid #f26957;
+}
+
+.banner-part .slide-btn button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    background: transparent;
+    border: 0;
+    color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+   
+}
+.banner-part:hover .slide-btn button{
+    opacity: 1;
+    visibility: visible;
+}
+.banner-part .slide-btn i {
+    font-size: 48px;
+}
+
+.banner-part .slide-btn .left-angle {
+    left: 70px;
+}
+
+.banner-part .slide-btn .left-angle::after {
+    position: absolute;
+    content: '';
+    background: #fff;
+    width: 30px;
+    height: 4px;
+    bottom: 20px;
+    left: 6px;
+}
+
+.banner-part .slide-btn .left-angle::before {
+    position: absolute;
+    content: "";
+    background: #fff;
+    width: 3px;
+    height: 50px;
+    top: 1px;
+    left: -10px;
+}
+
+.banner-part .slide-btn .right-angle {
+    right: 70px;
+}
+
+.banner-part .slide-btn .right-angle::after {
+    position: absolute;
+    content: '';
+    background: #fff;
+    width: 30px;
+    height: 4px;
+    bottom: 20px;
+    right: 6px;
+}
+
+.banner-part .slide-btn .right-angle::before {
+    position: absolute;
+    content: "";
+    background: #fff;
+    width: 3px;
+    height: 50px;
+    top: 1px;
+    right: -10px;
+}
+
+/*=================BANNER INDEX2 CSS==============*/
+.banner-text.BanT2 {
+	margin-left: 255px;
+}
+.banner-text #creat {
+	font-size: 80px;
+}
+
+.text-btn.Tb2 {
+	margin-left: 255px;
+}
+/*=================BANNER INDEX2 CSS==============*/
+
+/*============================
+    3.SKILL CSS
+=============================*/
+.skill-part {
+    padding: 130px 0;
+}
+
+.skill-part .slill-content h4 {
+    font-size: 20px;
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+    color: #222;
+    padding: 40px 0 28px 0;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.skill-part .slill-content p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8f8f8f;
+    font-family: 'Roboto Condensed';
+}
+
+.skill-part .slill-content a {
+    font-size: 13px;
+    font-weight: 700;
+    color: #444;
+    padding-top: 27px;
+    font-family: 'Roboto Condensed';
+    position: relative;
+    text-transform: uppercase;
+}
+
+.skill-part .slill-content a:hover {
+    color: #f26957;
+}
+
+.skill-part .slill-content .skill-btn i {
+    font-size: 13px;
+    position: absolute;
+    top: 31px;
+    right: -25px;
+}
+
+/*==========INDEX2 ALL CONTENT CSS START==========*/
+/*==========
+1.SKILL CSS
+============*/
+.skill-partTow {
+    padding: 120px 0;
+}
+
+.skill-partTow .Awesome-content {
+    padding: 73px 30px;
+    background: #2a2d30;
+}
+
+.skill-partTow .Awesome-content h4 {
+    font-size: 20px;
+    font-family: 'Roboto Condensed';
+    font-weight: 700;
+    color: #fff;
+    line-height: 1;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+.skill-partTow .Awesome-content p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #bdbdbd;
+    font-family: 'Roboto Condensed';
+    padding-bottom: 50px;
+}
+
+.skill-partTow .Awesome-content .skill-btn {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Roboto Condensed';
+    position: relative;
+    text-transform: uppercase;
+}
+
+.skill-partTow .Awesome-content .skill-btn:hover {
+    color: #f26957;
+}
+
+.skill-partTow .Awesome-content .skill-btn i {
+    font-size: 13px;
+    position: absolute;
+    top: 4px;
+    right: -25px;
+    color: #bdbdbd;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.skill-partTow .Awesome-content a:hover i {
+    color: #f26957;
+}
+
+.Awesome-content.Digital {
+    background: #25282b;
+}
+
+/*===========
+2.AWESOME PORTPOLIO CSS
+===========*/
+.awesome-prot-part {
+    padding-top: 122px;
+    background: #f6f6f6;
+}
+
+.awesome-prot-part .Awe-prot-btn {
+    padding-bottom: 50px;
+}
+
+.awesome-prot-part .Awe-prot-btn button {
+    font-size: 14px;
+    color: #888888;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    background: transparent;
+    border: none;
+    margin-right: 25px;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.awesome-prot-part .Awe-prot-btn button:hover {
+    color: #f26957;
+}
+
+.awesome-prot-part .Awe-prot-btn #active {
+    color: #f26957;
+}
+
+/*==========
+3.CLIENT  CSS
+==========*/
+.Client-part {
+    padding-top: 120px;
+    padding-bottom: 150px;
+}
+
+.Client-part .single-client {
+    padding: 40px;
+    background: #25282b;
+}
+
+.Client-part .single-client p {
+    color: #e5e5e5;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #424242;
+    font-family: 'Roboto Condensed';
+}
+
+.Client-part .single-client .client-details {
+    padding-top: 30px;
+    position: relative;
+}
+
+
+.Client-part .single-client .client-details .client-nam {
+    padding-top: 19px;
+    padding-left: 17px;
+}
+
+.Client-part .single-client .client-details .client-nam h4 {
+    color: #eee7e7;
+    font-weight: 700;
+    font-family: 'Roboto Condensed';
+    line-height: 1;
+    font-size: 16px;
+}
+
+.Client-part .single-client .client-details .client-nam span {
+    color: #a6a6a6;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Roboto Condensed';
+}
+
+.Client-part .single-client .client-details i {
+    color: #fff;
+    font-size: 13px;
+    position: absolute;
+    left: 97%;
+    padding-top: 28px;
+}
+
+/*===========
+4.VIDEO CSS
+==========*/
+.Video-part {
+	padding: 275px 0;
+}
+
+.Video-part .video-text h3 {
+	font-size: 48px;
+	font-weight: 700;
+	color: #fff;
+	font-family: 'Roboto Condensed';
+}
+
+.Video-part .video-text .video-play-btn {
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    color: #151313;
+    font-size: 29px;
+    line-height: 70px;
+    text-align: center;
+    margin-top: 57px;
+    padding-left: 10px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.Video-part .video-text .video-play-btn:hover{
+    color: #f26957;
+    background: #000;
+}
+
+/*==========INDEX2 ALL CONTENT CSS END==========*/
+
+
+
+/*============================
+    4.AWESOME CSS
+=============================*/
+.awesome-part {
+    padding: 130px 0;
+    background: #f6f6f6;
+}
+
+.awesome-part .services-cont {
+    background: #fff;
+    margin-bottom: 30px;
+    padding: 60px 40px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.awesome-part .services-cont:hover {
+    -webkit-box-shadow: 0px 0px 16px 12px #eaeaea;
+    box-shadow: 0px 0px 16px 12px #eaeaea;
+}
+
+
+.services-cont .sercices-img {
+    height: 40px;
+}
+
+.services-cont .sercices-img img {
+    height: 100%;
+}
+
+.awesome-part .services-cont h4 {
+    font-size: 19px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed';
+    padding-top: 25px;
+    line-height: 1;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.awesome-part .services-cont p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8f8f8f;
+    font-family: 'Roboto Condensed';
+    padding-top: 30px;
+}
+
+/*============================
+    5.AMAZING CSS
+=============================*/
+.amazing-part {
+    padding: 130px 0;
+}
+
+.amazing-part .amazing-title {
+    padding-bottom: 70px;
+}
+
+.amazing-part .amazing-title span {
+    font-size: 14px;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    color: #a7a7a7;
+    text-transform: uppercase;
+}
+
+.amazing-part .amazing-title h4 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed';
+    line-height: 1;
+    padding-top: 30px;
+    color: #222;
+}
+
+.amazing-part .amazing-list-text {
+    padding-top: 60px;
+}
+
+.amazing-part .amazing-list-text button {
+    font-size: 14px;
+    color: #888888;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    background: transparent;
+    border: none;
+    margin-right: 25px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.amazing-part .amazing-list-text button:hover {
+    color: #f26957;
+}
+
+.amazing-part .amazing-list-text #active {
+    color: #f26957;
+}
+
+.amazing-part .amaz-gellery {
+    margin: 0 55px;
+}
+
+
+.amazing-part .amazing-img {
+    position: relative;
+}
+
+.amazing-part .amazing-img .amazing-overlay {
+    background: rgba(0, 0, 0, .8);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 30px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.amazing-part .amazing-img:hover .amazing-overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.amazing-part .amazing-overlay .amgzing-text {
+    position: absolute;
+    bottom: 15px;
+}
+
+.amazing-part .amazing-img .amazing-overlay h4 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto Condensed';
+    line-height: 1;
+}
+
+.amazing-part .amazing-img .amazing-overlay a {
+    font-size: 11px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Roboto Condensed';
+    line-height: 1;
+    display: block;
+}
+
+.amazing-part .amazing-img .amazing-overlay #plus {
+    font-size: 16px;
+}
+
+.amazing-part .amazing-img .amazing-overlay span {
+    font-size: 11px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Roboto Condensed';
+}
+
+.amazing-part #amaz-img {
+    height: 93%;
+}
+
+.amazing-part #amaz-img img {
+    height: 100%;
+    width: 100%
+}
+
+
+.amgzing-text.bag-img #light {
+    font-size: 30px;
+}
+
+.amgzing-text.bag-img #brnad {
+    font-size: 20px;
+}
+
+.amazing-overlay #plus-icon {
+    font-size: 30px;
+}
+
+/*============================
+    6.COUNDTER CSS
+=============================*/
+.sinex-counter-part {
+    padding: 100px 0;
+    background: #333;
+}
+
+
+.sinex-counter-part .counter .count-num {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1;
+    display: block;
+    position: relative;
+}
+
+.sinex-counter-part .counter .count-num::before {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 1px;
+    background: #f26957;
+    bottom: -15px;
+    left: 44%;
+}
+
+.sinex-counter-part .counter h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #b7b7b7;
+    line-height: 1;
+    padding-top: 35px;
+}
+
+/*============================
+    7.TEAM (OUR STUFF) CSS
+=============================*/
+.stuff-part {
+    padding: 130px 0;
+}
+
+.stuff-part .single-stuff h4 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #222;
+    line-height: 1;
+    padding-top: 30px;
+    font-family: 'Roboto Condensed';
+}
+
+.stuff-part .single-stuff span {
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    font-weight: 400;
+    color: #222;
+    padding-top: 2px;
+}
+
+.stuff-part .single-stuff .stuff-img {
+    position: relative;
+}
+
+.stuff-part .single-stuff .stuff-img .stuff-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.stuff-part .single-stuff:hover .stuff-overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.stuff-part .single-stuff .stuff-img .stuff-overlay p {
+    font-size: 14px;
+    color: #ebebeb;
+    font-weight: 400;
+    font-family: 'Roboto Condensed';
+    padding-top: 275px;
+}
+
+.stuff-part .single-stuff .stuff-img .stuff-overlay .stuff-icon {
+    padding: 30px 0;
+}
+
+.stuff-part .single-stuff .stuff-img .stuff-overlay .stuff-icon a {
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    line-height: 38px;
+    color: #010101;
+    text-align: center;
+    margin-right: 6px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.stuff-part .single-stuff .stuff-img .stuff-overlay .stuff-icon a:hover {
+    color: #fefefe;
+    background: #f26957;
+}
+
+/*============================
+    8.DESIGNE CSS
+=============================*/
+
+.design-part .design-img {
+    height: 100%;
+}
+
+.design-part .design-img img {
+    height: 100%;
+}
+
+.design-part .design-text {
+    padding-left: 98px;
+    padding-top: 174px;
+    padding-bottom: 176px;
+    background: #f6f6f6;
+    padding-right: 104px;
+}
+
+.design-part .design-text span {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #a5a5a5;
+    font-family: 'Roboto Condensed';
+}
+
+.design-part .design-text h4 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    color: #222;
+    padding: 30px 0;
+    font-family: 'Roboto Condensed';
+}
+
+.design-part .design-text p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #797979;
+    font-family: 'Roboto Condensed';
+}
+
+.design-part .design-text .design-btn a {
+    font-size: 20px;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    padding: 20px 55px;
+    background: transparent;
+    line-height: 1;
+    color: #222;
+    margin-top: 50px;
+    border: 1px solid #222;
+}
+
+.design-part .design-text .design-btn a:hover {
+    background: #f26957;
+    border-color: #f26957;
+    color: #fff;
+}
+
+
+/*============================
+    9.LOGO CSS
+=============================*/
+.logo-part {
+    padding: 112px 0;
+}
+
+/*============================
+    10.BLOG CSS
+=============================*/
+.blog-part {
+    padding: 130px 0;
+    background: #f6f6f6;
+}
+
+.blog-part .blog-contant .blog-text {
+    padding: 40px 30px;
+    background: #fff;
+}
+
+.blog-part .blog-contant .blog-text h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    padding-bottom: 24px;
+    color: #222;
+    font-family: 'Roboto Condensed';
+}
+
+.blog-part .blog-contant .blog-text #adds {
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 1;
+    padding-bottom: 25px;
+    color: #8f8f8f;
+}
+
+.blog-part .blog-contant .blog-text #nam {
+    color: #f26957;
+    padding-right: 10px;
+}
+
+.blog-part .blog-contant .blog-text #com {
+    color: #f26957;
+    padding-left: 10px;
+}
+
+.blog-part .blog-contant .blog-text p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8f8f8f;
+    font-family: 'Roboto Condensed';
+}
+
+.blog-part .blog-contant .blog-text #text {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.blog-part .blog-contant .blog-text a {
+    font-size: 13px;
+    color: #222;
+    font-weight: 700;
+    padding-top: 15px;
+    font-family: 'Roboto Condensed';
+}
+
+.blog-part .blog-contant .blog-text a:hover {
+    color: #f26957;
+}
+
+.blog-part .blog-contant .blog-text a .long-arrow {
+    padding-left: 10px;
+}
+
+
+/*============================
+    10.FOOTER CSS
+=============================*/
+.footer-part {
+    padding: 100px 0;
+    background: #222;
+    position: relative;
+}
+
+/*back to btn css*/
+
+.footer-part .back-btn .bac2-btn {
+    width: 40px;
+    height: 40px;
+    background: rgb(0, 0, 0, 0.6);
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: fixed;
+    z-index: 99999;
+    bottom: 50px;
+    right: 15px;
+    display: none;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.footer-part .back-btn .bac2-btn:hover {
+    background: #f26957;
+}
+
+
+/*foot-left css*/
+
+.footer-part .foot-left p {
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 35px;
+    color: #949494;
+    font-family: 'Roboto Condensed';
+}
+
+.footer-part .foot-left .foot-soci-icon {
+    padding-top: 28px;
+}
+
+.footer-part .foot-left .foot-soci-icon a {
+    color: #fff;
+    background: #353333;
+    width: 35px;
+    height: 35px;
+    font-size: 15px;
+    line-height: 35px;
+    text-align: center;
+    margin-right: 6px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.footer-part .foot-left .foot-soci-icon a:hover {
+    background: #f26957;
+}
+
+/*foot-center css*/
+.footer-part .foot-center h4 {
+    font-size: 19px;
+    color: #fff;
+    line-height: 1;
+    font-weight: 700;
+    padding-bottom: 40px;
+    font-family: 'Roboto Condensed';
+}
+
+.footer-part .foot-center p {
+    color: #949494;
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-part .foot-center #but1 {
+    padding-bottom: 16px;
+}
+
+.footer-part .foot-center #but2 {
+    padding-top: 30px;
+    padding-bottom: 17px;
+}
+
+.footer-part .foot-center span {
+    color: #6d6d6d;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/*foot-right css*/
+.footer-part .foot-right h4 {
+    font-size: 19px;
+    color: #fff;
+    line-height: 1;
+    font-weight: 700;
+    padding-bottom: 40px;
+    font-family: 'Roboto Condensed';
+}
+
+.footer-part .foot-right p {
+    color: #949494;
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-part .foot-right form {
+    position: relative;
+    margin-top: 25px;
+}
+
+.footer-part .foot-right form input {
+    padding: 18px 15px;
+    font-weight: 400;
+    width: 210px;
+    background: #3f3f3f;
+    border: 0;
+    font-size: 12px;
+    color: #b6b6b6;
+    border-right: 2px solid #575757;
+}
+
+.footer-part .foot-right form button {
+    background: #3f3f3f;
+    position: absolute;
+    height: 100%;
+    width: 60px;
+    padding: 18px;
+    font-size: 14px;
+    color: #868686;
+    border: none;
+    padding-left: 22px;
+    transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+}
+
+.footer-part .foot-right form button:hover {
+    color: #f26957;
+}
+
+/*footer-btm css*/
+.footer-btm {
+    padding: 40px 0;
+    background: #2e2e2e;
+}
+
+.footer-btm .copyRight span {
+    color: #aaaaaa;
+    font-size: 14px;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+}
+
+.footer-btm .foot-menu ul {
+    margin-bottom: 0;
+    text-align: right;
+}
+
+.footer-btm .foot-menu ul li {
+    display: inline-block;
+    margin-right: 11px;
+}
+
+.footer-btm .foot-menu ul li a {
+    font-size: 14px;
+    color: #aaaaaa;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+}
+
+.footer-btm .foot-menu ul li a:hover {
+    color: #f26957;
+}
